@@ -1,31 +1,30 @@
 .active {
-    opacity: 0.5;
+	opacity: 0.5;
 }
-
 .dark-grey {
-    color: #5D5D5D;
+	color: #5D5D5D;
 }
-
+html .dark .dark-grey {
+	color: #f0f0f0;
+}
 .light-grey-text {
-    color: #B2B2B2;
+	color: #B2B2B2;
 }
-
-    .light-grey-bg {
-        background-color: #F5F5F5;
-    }
-
+html .dark .light-grey-text {
+	color: #ededed;
+}
+.light-grey-bg {
+	background-color: #F5F5F5;
+}
+html .dark .light-grey-bg {
+	background-color: #222222;
+}
 .green {
-    color: #1AAFA8;
+	color: #1AAFA8;
 }
-
-.tinder-red-bg {
-    background-color: #FF5864;
-}
-
 .white {
-    color: #fff;
+	color: #fff;
 }
-
-    .white-bg {
-        background-color: #fff;
-    }
+.white-bg {
+	background-color: #fff;
+}
