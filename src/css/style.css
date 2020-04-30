@@ -44,7 +44,7 @@ html .dark {
 }
 .card {
 	background-color: #fff;
-	height: 600px;
+	height: 650px;
 	margin: 20px 5px;
 	padding: 40px 40px 0px 40px;
 	overflow: hidden;
@@ -98,6 +98,34 @@ nav h3:nth-of-type(n+2) {
 .layer-over {
 	position: relative;
 	z-index: 10
+}
+ul.icoDev {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0
+}
+ul.icoDev li {
+	display: inline;
+	margin: 0 auto;
+    font-size: 30px;
+}
+.icoDev em{
+    font-size: 30px;
+}
+.icoDev a.icoReact,
+.icoDev a.icoPython,
+.icoDev a.icoPhp,
+.icoDev a.icoLaravel,
+.icoDev a.icoCss,
+.icoDev a.icoNodejs,
+.icoDev a.icoAngular,
+.icoDev a.icoBootstrap,
+.icoDev a.icoJava,
+.icoDev a.icoHtml,
+.icoDev a.icoDB,
+.icoDev a.icoCi{
+	color: #5D5D5D
 }
 ul.social-network {
 	list-style: none;
