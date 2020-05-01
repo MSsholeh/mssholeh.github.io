@@ -44,7 +44,7 @@ html .dark {
 }
 .card {
 	background-color: #fff;
-	height: 650px;
+	height: 600px;
 	margin: 20px 5px;
 	padding: 40px 40px 0px 40px;
 	overflow: hidden;
@@ -123,9 +123,25 @@ ul.icoDev li {
 .icoDev a.icoBootstrap,
 .icoDev a.icoJava,
 .icoDev a.icoHtml,
-.icoDev a.icoDB,
+.icoDev a.icoMysql,
+.icoDev a.icoWordpress,
 .icoDev a.icoCi{
 	color: #5D5D5D
+}
+html .dark .icoDev a.icoReact,
+html .dark .icoDev a.icoPython,
+html .dark .icoDev a.icoPhp,
+html .dark .icoDev a.icoLaravel,
+html .dark .icoDev a.icoCss,
+html .dark .icoDev a.icoNodejs,
+html .dark .icoDev a.icoAngular,
+html .dark .icoDev a.icoBootstrap,
+html .dark .icoDev a.icoJava,
+html .dark .icoDev a.icoHtml,
+html .dark .icoDev a.icoMysql,
+html .dark .icoDev a.icoWordpress,
+html .dark .icoDev a.icoCi{
+	color: #f0f0f0
 }
 ul.social-network {
 	list-style: none;
