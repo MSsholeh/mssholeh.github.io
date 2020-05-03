@@ -44,7 +44,7 @@ html .dark {
 }
 .card {
 	background-color: #fff;
-	height: 600px;
+	height: 650px;
 	margin: 20px 5px;
 	padding: 40px 40px 0px 40px;
 	overflow: hidden;
@@ -285,6 +285,9 @@ footer span {
 	.toggle {
 		top: 220px
 	}
+    .resume-frame {
+		height: 400px
+	}
 }
 @media (min-width: 350px) and (max-width: 575px) {
 	html {
@@ -342,6 +345,9 @@ footer span {
 	.toggle {
 		top: 220px
 	}
+    .resume-frame {
+		height: 450px
+	}
 }
 @media (min-width: 576px) {
 	html {
@@ -352,6 +358,12 @@ footer span {
 	}
 	.narrow {
 		max-width: 540px
+	}
+    .resume {
+		max-width: 700px
+	}
+    .resume-frame {
+		height: 850px
 	}
 	nav h3:nth-of-type(n+2) {
 		margin-right: 25px;
